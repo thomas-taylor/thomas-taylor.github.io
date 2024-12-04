@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PasswordMakerBlazor",
   "resources": {
-    "hash": "sha256-pOUxZf6mNopRh7CZGGlA5rSxopGEAuYcN+l7ciX2fIA=",
+    "hash": "sha256-4G/NZ8GdHgkH+P6f5E3BM69QL75BvVPztF+wlT7rCvI=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Components.Forms.s73dt6zeog.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -23,7 +23,7 @@
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "netstandard.zhbw5yiy0s.wasm": "netstandard.wasm",
       "PasswordMaker.w171ossatr.wasm": "PasswordMaker.wasm",
-      "PasswordMakerBlazor.lzqljabhww.wasm": "PasswordMakerBlazor.wasm",
+      "PasswordMakerBlazor.7i5sdumo8r.wasm": "PasswordMakerBlazor.wasm",
       "PasswordMakerClient.zq5ofglkr7.wasm": "PasswordMakerClient.wasm",
       "System.Collections.Concurrent.ethj57xain.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.fmuw9rwuxs.wasm": "System.Collections.Immutable.wasm",
@@ -100,7 +100,7 @@
       "Microsoft.JSInterop.WebAssembly.heoad7mujs.wasm": "sha256-99wG3VH14sWkwPaF5rX6YAcJvtAhDuqonwihvj2m5HA=",
       "netstandard.zhbw5yiy0s.wasm": "sha256-N4/Et4wnCGhbcbETvsvaWJFUV1p8/MrTpdD3HNzKoXY=",
       "PasswordMaker.w171ossatr.wasm": "sha256-DN4gGUGVefSh1sDWZohbIUz49hPkgIXJ6kRfds97cjs=",
-      "PasswordMakerBlazor.lzqljabhww.wasm": "sha256-4cYYxU5XpdhnLLARd6FsR7DO3GDIG1XpDEPFYONDcX4=",
+      "PasswordMakerBlazor.7i5sdumo8r.wasm": "sha256-ITD6qFwUkneEWBIZKJv9rENRxiarEdp/ZlXpjbwLT+4=",
       "PasswordMakerClient.zq5ofglkr7.wasm": "sha256-GzJ86NP2GlAOFAi5LzyCOPngRJJGTWisqQ9WfVabnvw=",
       "System.Collections.Concurrent.ethj57xain.wasm": "sha256-8hGGQJOwIfgGwKDPOe+uVCYNmtkYic8wvSLa9TEa8aU=",
       "System.Collections.Immutable.fmuw9rwuxs.wasm": "sha256-+Sf0wE7mPP3VglZd5ONFBigNdvj1HHWRIf5u9wVmRlw=",
