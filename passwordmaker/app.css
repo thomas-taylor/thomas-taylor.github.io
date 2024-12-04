@@ -7,6 +7,7 @@ body {
     line-height: var(--type-ramp-base-line-height);
     margin: 0;
     padding: 0;
+    background-color: #333333;
 }
 
 .content {
@@ -80,41 +81,21 @@ fluent-text-area.full-height-textarea::part(control) {
 }
 
     .blazor-error-boundary::before {
-        content: "An error has occurred. "
+        content: "An error has occurred."
     }
 
-.loading-progress {
-    position: relative;
-    display: block;
-    width: 8rem;
-    height: 8rem;
-    margin: 20vh auto 1rem auto;
-}
-
-    .loading-progress circle {
-        fill: none;
-        stroke: #e0e0e0;
-        stroke-width: 0.6rem;
-        transform-origin: 50% 50%;
-        transform: rotate(-90deg);
-    }
-
-        .loading-progress circle:last-child {
-            stroke: #1b6ec2;
-            stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
-            transition: stroke-dasharray 0.05s ease-in-out;
-        }
-
-.loading-progress-text {
+.loading-text {
+    font-family: Consolas, Menlo, "DejaVu Sans Mono", "Courier New", monospace;
+    position: absolute;
+    text-align: center;
+    font-size: 32pt;
+    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+    color: #ff8742;
     position: absolute;
     text-align: center;
     font-weight: bold;
     inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
 }
-
-    .loading-progress-text:after {
-        content: var(--blazor-load-percentage-text, "Loading");
-    }
 
 .main-container {
     display: flex;
