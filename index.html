@@ -1,8 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Thomas on GitHub</title>
+</head>
 <body>
-<h1>Hello</h1>
-<p>This is an index page for my GitHub account.</p>
-<p>Actual content to come...</p>
+<h3 class="header">Hello!</h3>
+<ul class="lists">
+    <li>I'm Thomas Taylor.</li>
+    <li>I'm an engineer and sometimes write software.</li>
+    <li>My work is mostly for others, but I thought I'd share my Password Maker.</li>
+</ul>
+<h3 class="header">Password Maker</h3>
+<p style="margin-top: 5px;">This is a simple application that makes random (or pseudorandom for the pedants) strings that one can use as passwords and in other spots where a random string is useful.</p>
+<p>I updated it a bit recently to use in exploring various user interface options. This includes:</p>
+<ul class="lists">
+    <li>Windows Presentation Foundation (WPF) with <a href="https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit">Material Design in XAML</a>. To run this version, grab the <a href="https://github.com/thomas-taylor/password-maker">code</a>.</li>
+    <li>Blazor with <a href="https://www.fluentui-blazor.net/">Fluent UI</a>. You can run this version from here: <a href="https://thomas-taylor.github.io/passwordmaker/">Password Maker</a></li>
+</ul>
+<h3 class="header">It Looks Like This</h3>
+<div class="screenshots">
+    <img src="pm-wpf.png" alt="WPF Screenshot" />
+    <img src="pm-blazor.png" alt="Blazor Screenshot" />
+</div>
+<h3 class="header">How it Works</h3>
+<ul class="lists">
+    <li>The code runs entirely locally; it makes no web service calls. So all passwords are yours alone, with no chance for interception (well, at least over the Internet; I don't know about on your computer).  Of course, use at your own risk.</li>
+    <li>The only output mechanism is the clipboard.</li>
+    <li>It is really just a 'fancy' wrapper on System.Security.Cryptography.RandomNumberGenerator.</li>
+    <li>As shown in the screenshots, there are several options to control which characters to include, and you can save multiple sets of options.</li>
+</ul>
+<h3 class="header">Additional User Interfaces</h3>
+<ul class="lists">
+    <li>An Avalonia UI version might come next. I'd like to make Android, Browser, and Desktop versions.</li>
+    <li>I started with a command-line version years ago, but it is out-of-date. If you think that would be useful, I'd be happy to have a PR...</li>
+</ul>
+<h3 class="header">Source Code</h3>
+<p style="margin-top: 5px;">The code has an MIT license and is here: <a href="https://github.com/thomas-taylor/password-maker">Password Maker Repository</a>.</p>
 </body>
 </html>
